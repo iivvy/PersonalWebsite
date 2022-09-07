@@ -23,13 +23,10 @@ class About extends React.Component {
         I am currently a fourth year <b>Computer Science</b> major at
         <a style={{textDecoration:"none"}} href="https://www.esi-sba.dz/fr/">
           {" "}
-          Higher school of computer science
+          Higher school of computer science 
         </a>
-        {/* . After graduation, I will be joining{" "}
-        <a href="https://www.aboutamazon.com/">Amazon</a> as a{" "}
-        <b>Software Development Engineer</b> while undertaking a part-time
-        <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>. */}
+        and an intern at <a href="https://www.cnas.dz"></a>
+       
       </p>
     );
     const two = (
@@ -54,6 +51,8 @@ class About extends React.Component {
       "Python",
       "React.js",
       "Java",
+      "MySQL",
+      "XML",
       "Node.js",
       "HTML & CSS",
       "Flutter"

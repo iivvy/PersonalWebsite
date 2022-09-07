@@ -23,7 +23,7 @@ import './intro.css'
   render() {
     return (
       <div id="intro">
-        <Typist  avgTypingDelay={130}>
+        <Typist  avgTypingDelay={120}>
           <span className="intro-title">
             {"hi, "}
             <span className="intro-name">{"hadjer"}</span>
@@ -36,7 +36,7 @@ import './intro.css'
              I have a great interest in Front-end developement, cybersecurity and human-computer intercations,
               and everything in computer science.</div>
             <a href='mailto:ha.ferrar@esi-sba.dz' className="intro-contact">
-            <EmailRoundedIcon style={{color:"#64ffda"}}></EmailRoundedIcon>
+            <EmailRoundedIcon style={{color:"#64ffda",height:"30PX",width:"30PX"}}></EmailRoundedIcon>
             {" " + "Say hi!"}
             </a>
  

@@ -4,7 +4,7 @@
     font-family: "NTR";
     font-weight: 200;
     font-display: fallback;
-    src: url("") format("truetype");
+    src: url("https://fonts.googleapis.com/css2?family=NTR&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,400&display=swap") format("truetype");
   }
   
   #about {
@@ -59,7 +59,7 @@
   }
   
   .about-image img {
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
     border-radius: 10px;
     margin-left: 30px;
