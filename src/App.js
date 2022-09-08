@@ -5,6 +5,7 @@ import About from './components/About/About';
 import './root.css'
 import JobtList from './components/jobList/JobtList';
 import Project from './components/project/Project';
+import Experience from './components/Experience/Experience';
 // import "rsuite/dist/styles/rsuite-default.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div id="content">
       <Intro></Intro>
       <About/>
+      <Experience></Experience>
       <Project></Project>
      
       </div>

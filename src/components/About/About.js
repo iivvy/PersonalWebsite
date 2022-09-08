@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Fade from "../Fade";
-
+import { setTranslate3d } from "rsuite/esm/List/helper/utils";
 
 class About extends React.Component {
   constructor() {
@@ -21,11 +21,11 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently a fourth year <b>Computer Science</b> major at
-        <a style={{textDecoration:"none"}} href="https://www.esi-sba.dz/fr/">
+        <a style={{textDecoration:"none",color:"#8892b0"}} href="https://www.esi-sba.dz/fr/">
           {" "}
-          Higher school of computer science 
+          Higher school of computer science {" "}  
         </a>
-        and an intern at <a href="https://www.cnas.dz"></a>
+           and an intern at <a href="https://www.Transformatek.dz"></a>
        
       </p>
     );
@@ -47,7 +47,7 @@ class About extends React.Component {
     const desc_items = [one, two];
 
     const tech_stack = [
-      "Javascript ES6+",
+      "Javascript",
       "Python",
       "React.js",
       "Java",
@@ -55,7 +55,8 @@ class About extends React.Component {
       "XML",
       "Node.js",
       "HTML & CSS",
-      "Flutter"
+      "Flutter",
+      "R"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
@@ -82,7 +83,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              {/* <img src={"/assets/me2.jpg"} /> */}
+              {/* <img  /> */}
             </div>
           </div>
         </Fade>

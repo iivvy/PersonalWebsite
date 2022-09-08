@@ -1,8 +1,9 @@
 import React from "react";
-import JobList from "./JobList";
-import "../styles/Experience.css";
-import "../Fade.js"
-
+import JobtList from "../jobList/JobtList";
+import './experience.css'
+import Fade from "../Fade";
+import './experience.css'
+import "../../App.css";
 class Experience extends React.Component {
   constructor() {
     super();
@@ -20,11 +21,12 @@ class Experience extends React.Component {
   render() {
     return (
       <div id="experience">
-        <Fade>
-          <div className="section-header ">
+           <div className="section-header ">
             <span className="section-title">/ experience</span>
           </div>
-          <JobList></JobList>
+        <Fade>
+       
+          <JobtList></JobtList>
         </Fade>
       </div>
     );

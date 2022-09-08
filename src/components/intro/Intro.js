@@ -31,13 +31,15 @@ import './intro.css'
           </span>
         </Typist>
         <Fade>
-            <div className='intro1'>Still looking for something to put here.</div>
-            <div className='intro2'> I'm software engineer based in Algeria.
+            <div className='intro1'>
+              Still looking for something to put here.
+              </div>
+            <div className='intro2'> <p>I'm software engineer based in Algeria.
              I have a great interest in Front-end developement, cybersecurity and human-computer intercations,
-              and everything in computer science.</div>
+              and everything in computer science.</p></div>
             <a href='mailto:ha.ferrar@esi-sba.dz' className="intro-contact">
             <EmailRoundedIcon style={{color:"#64ffda",height:"30PX",width:"30PX"}}></EmailRoundedIcon>
-            {" " + "Say hi!"}
+            {" " + "Say Hi!"}
             </a>
  
         </Fade>
